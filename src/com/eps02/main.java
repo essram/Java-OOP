@@ -1,4 +1,6 @@
 package com.eps02;
+//constructor
+
 
 //class tanpa contructor/class polos
 class polos{

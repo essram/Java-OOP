@@ -1,5 +1,5 @@
 package com.eps01;
-
+//pengenalan class dan object
 
 //membuat class sebagai template
 class Mahasiswa {
