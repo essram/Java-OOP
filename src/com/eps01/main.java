@@ -1,4 +1,4 @@
-package eps01;
+package com.eps01;
 
 
 //membuat class sebagai template
