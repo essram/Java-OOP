@@ -1,4 +1,4 @@
-package com.latihan;
+package com.latihan1;
 
 //player
 class Player {
