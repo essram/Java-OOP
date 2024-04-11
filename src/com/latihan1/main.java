@@ -14,6 +14,14 @@ class Player {
         this.health = health;
     }
 
+    void attack(Player opponent) {
+        System.out.println(this.name + " attacking " + opponent.name);
+    }
+
+    void defense(double attackPower) {
+        System.out.println(this.name + " gots damage " + attackPower);
+    }
+
     void equipWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
@@ -85,5 +93,8 @@ public class main {
         player2.equipWeapon(ketapel);
         player2.equipArmor(baju);
         player2.display();
+
+        System.out.println("\npertempuran");
+        player1.attack(player2);
     }
-}   
+}
