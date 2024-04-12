@@ -15,13 +15,13 @@ class Player {
     }
 
     void attack(Player opponent) {
-        System.out.println(this.name + " attacking " + opponent.name);
         double attackPower = this.weapon.attackPower;
+        System.out.println(this.name + " attacking " + opponent.name + " with power " + attackPower);
         opponent.defense(attackPower);
     }
 
     void defense(double attackPower) {
-        System.out.println(this.name + " gots damage " + attackPower);
+        System.out.println(this.name + " gets damage " + attackPower);
     }
 
     void equipWeapon(Weapon weapon) {
